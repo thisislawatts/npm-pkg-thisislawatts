@@ -1,2 +1,10 @@
-# npm-pkg-thisislawatts
-An npm card for me ✨
+It's Luke!
+
+# Usage
+
+## npm
+```
+npx thisislawatts
+```
+
+Based on the original implementation from [Tierney](https://github.com/bnb/bitandbang)

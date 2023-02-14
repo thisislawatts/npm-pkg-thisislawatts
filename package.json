@@ -1,0 +1,43 @@
+{
+  "name": "thisislawatts",
+  "version": "1.0.0",
+  "description": "A personal card for Luke Watts (@thisislawatts)",
+  "main": "./bin/card.js",
+  "bin": {
+    "thisislawatts": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisislawatts/npm-pkg-thisislawatts.git"
+  },
+  "homepage": "https://www.bestemployeeever.com",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "standard"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Luke Watts <luke@thisis.la> (https://thisis.la)",
+  "license": "MIT",
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "boxen": "^7.0.1",
+    "chalk": "^5.2.0",
+    "standard": "^12.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/thisislawatts/npm-pkg-thisislawatts/issues"
+  }
+}
